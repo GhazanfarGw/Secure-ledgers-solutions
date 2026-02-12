@@ -10,7 +10,7 @@ import Partner from './Exchanges'
 import Value from "./Value"
 import Getting from '../Getting/Getting';
 import Why from '../why/Business'
-import Campare from "./BlockSPCComparison"
+// import Campare from "./BlockSPCComparison"
 
 function index() {
   return (
@@ -20,7 +20,7 @@ function index() {
         <Partner/>
         <Price/>
         <About/>
-        <Campare/>
+        {/* <Campare/> */}
         <Apart/>
         <Getting/>
         <Why/>
@@ -32,5 +32,6 @@ function index() {
     </>
   )
 }
+
 
 export default index
