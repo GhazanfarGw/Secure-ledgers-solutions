@@ -19,13 +19,13 @@ function About() {
                         <h1 data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-left lg:text-4xl text-2xl md:pt-5 font-medium text-[#1A2B6B]'>
                             Your trusted partner in blockchain security
                         </h1>
-                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className="text-left text-[#6D7380] pt-3">
+                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className="text-left text-[#4f5258] pt-3">
                             The foundation of every relationship is trust.
                         </p>
-                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-left pt-5 md:text-base leading-normal text-sm text-[#6D7380]'>
+                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-left pt-5 md:text-base leading-normal text-sm text-[#4f5258]'>
                             At Secure ledgers solutions digital asset consultancy, we specialize in safeguarding your digital assets and ensuring that all blockchain-related activities are secure and compliant. Whether you are an individual seeking to protect your investments or a business in need of expert guidance, our services are tailored to meet your specific requirements.
                         </p>
-                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-left pt-5 text-sm text-[#6D7380]'>
+                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-left pt-5 text-sm text-[#4f5258]'>
                             Our team of experienced professionals is committed to delivering bespoke solutions that prioritize simplicity, security, and peace of mind.
                         </p>
                     </div>
