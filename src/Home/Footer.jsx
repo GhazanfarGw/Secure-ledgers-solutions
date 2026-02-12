@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-[#252E42]'>
             <div className='max-w-screen-xl mx-auto justify-center md:pt-20 md:pb-10 md:px-10 py-10'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5 px-5 '>
-                    Website last updated: August 18, 2025
+                    Website last updated: February 13, 2026
                 </h1>
                 <span className="py-2 md:px-0 px-2">
                     <a href="/">
@@ -18,7 +18,7 @@ const Footer = () => {
                             Empower your business with Safeguard digital assets
                         </h1>
                         <p className='text-sm text-[#C3CDD3] md:pt-4 pt-3'>
-                            Secure ledgers solutions offers to onvert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process.
+                            Secure ledgers solutions offers to convert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process.
                         </p>
                     </div>
                     <div className='md:pt-0 pt-10'>
@@ -26,7 +26,7 @@ const Footer = () => {
                             Contact Us
                         </h1>
                         <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
-                            info@blockspc.com
+                            support@secureledgerssolutions.com
                         </p>
                     </div>
                     <div className='md:pt-0 pt-10'>
@@ -37,7 +37,7 @@ const Footer = () => {
                             33 Queen St, London EC4R 1AP. <br /> 15813 Waterloo Rd, Cleveland, OH 44110, USA.
                         </p>
                     </div>
-                    <div className='md:pt-0 pt-10'>
+                    {/* <div className='md:pt-0 pt-10'>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             Community
                         </h1>
@@ -91,13 +91,12 @@ const Footer = () => {
                                 </svg>
                             </a>
                         </div>
-                        
-                    </div>
+                    </div> */}
                 </div>
                 <div className='mx-auto justify-center px-5 border-t py-5 border-[#136690]'>
                     <div className=''>
                         <p className='md:text-sm text-xs text-[#C3CDD3] text-center'>
-                            Block Sphere © 2025. All right reserved.
+                            Secure Ledgers Solutions © 2026. All right reserved.
                         </p>
                     </div>
                 </div>
@@ -108,4 +107,5 @@ const Footer = () => {
 
 
 export default Footer;
+
 
