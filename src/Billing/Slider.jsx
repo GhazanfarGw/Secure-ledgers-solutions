@@ -1,65 +1,110 @@
-import React from "react";
+import React from 'react'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { Tooltip } from "@mui/material";
+import { Tooltip } from '@mui/material'
 
 function Partners() {
-  const settings = {
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    slidesToShow: 10,
-    slidesToScroll: 1,
-    dots: true,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 8,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 6,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
-  };
+    const settings = {
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        dots: true,
 
-  const partners = Array.from({ length: 16 }, (_, i) => ({
-    id: i + 1,
-    name: `Partner ${i + 1}`,
-    image: `/${i + 1}.jpg`,
-  }));
+        cssEase: "linear",
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 8,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              initialSlide: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              dots: true,
+            }
+          }
+        ]
+      };
+   return (
+    <>
+    <div className='mx-0 px-5 items-center border-2 bg-[#EDF0FF]'>
+      <div data-aos="zoom-in-up" data-aos-delay="300" className='max-w-screen-xl items-center mx-auto overflow-hidden'>
+        <Slider {...settings} className='flex mx-auto items-center gap-4 pt-5'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./1.jpg' alt='Image'/>
+            </Tooltip>
 
-  return (
-    <div className="px-5 border-2 bg-[#EDF0FF]">
-      <div className="max-w-screen-xl mx-auto overflow-hidden">
-        <Slider {...settings}>
-          {partners.map((partner) => (
-            <div key={partner.id} className="px-3 py-5">
-              <Tooltip title={partner.name} placement="bottom">
-                <img
-                  src={partner.image}
-                  alt={partner.name}
-                  className="mx-auto h-16 object-contain"
-                />
-              </Tooltip>
-            </div>
-          ))}
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./2.jpg' alt='Image'/>
+            </Tooltip>
+
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./3.jpg' alt='Image'/>
+            </Tooltip>
+
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./4.jpg' alt='Image'/>
+            </Tooltip>
+
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./5.jpg' alt='Image'/>
+            </Tooltip>
+
+            <Tooltip className='py-5 justify-center items-center px-3'>
+              <img src='./6.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./7.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./8.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./9.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./10.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./11.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./12.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./13.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./14.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./15.jpg' alt='Image'/>
+            </Tooltip>
+            <Tooltip className='py-5 justify-center items-center px-3'>
+                <img src='./16.jpg' alt='Image'/>
+            </Tooltip>
         </Slider>
       </div>
     </div>
-  );
+    </>
+  )
 }
 
 export default Partners;
