@@ -6,34 +6,33 @@ import { Tooltip } from "@mui/material";
 
 function Partners() {
   const settings = {
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    slidesToShow: 10,
-    slidesToScroll: 1,
-    dots: true,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 8,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 6,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
-  };
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  slidesToShow: 10,
+  slidesToScroll: 1,
+  dots: false,
+  arrows: false,
+  cssEase: "linear",
+  responsive: [
+    {
+      breakpoint: 1280,
+      settings: { slidesToShow: 8 },
+    },
+    {
+      breakpoint: 1024,
+      settings: { slidesToShow: 7 },
+    },
+    {
+      breakpoint: 768,
+      settings: { slidesToShow: 5 },
+    },
+    {
+      breakpoint: 480,
+      settings: { slidesToShow: 3 },
+    },
+  ],
+};
 
   const partners = Array.from({ length: 16 }, (_, i) => ({
     id: i + 1,
@@ -51,7 +50,7 @@ function Partners() {
                 <img
                   src={partner.image}
                   alt={partner.name}
-                  className="mx-auto h-16 object-contain"
+                  className="mx-auto h-12 sm:h-14 md:h-16 lg:h-20 object-contain"
                 />
               </Tooltip>
             </div>
