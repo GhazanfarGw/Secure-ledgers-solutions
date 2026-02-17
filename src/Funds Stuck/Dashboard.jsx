@@ -19,7 +19,7 @@ function Dashboard() {
             </div>
             <div className='xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 mx-auto max-w-screen-2xl w-full md:px-10 px-5'>
                 <div className=''>
-                    <div className='md:top-1/4 top-1/2 md:px-10 px-5 absolute pt-5 md:pt-0 max-w-screen-xl mx-auto'>
+                    <div className='md:top-1/4 top-1/2 md:px-10 px-5 absolute pt-5 md:pt-16 max-w-screen-xl mx-auto'>
                         <div className='second text-left'>
                             <h1 data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='xl:text-6xl lg:text-5xl text-3xl md:text-5xl items-center duration-300 text-[#ffffff] font-medium'>
                                 Funds Stuck <br className='hidden md:block lg:block'/> On Binance?
@@ -62,3 +62,4 @@ function Dashboard() {
 }
 
 export default Dashboard
+
