@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import Nav from './header';
 
 function Contact () {
@@ -25,10 +25,10 @@ function Contact () {
         message: message,
     };
     emailjs.send(
-      'service_vzgul5p',
-      'template_dpkkern',
+      'service_twtnibd',
+      'template_y2j68gl',
       templateParams,
-      'I1EY11UtD0UQtDY2-'
+      'm5W1vJH1hNlv0MfTj'
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
