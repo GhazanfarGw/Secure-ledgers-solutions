@@ -4,7 +4,7 @@ import Home from "./Home/index";
 import About from "./Aboutus/Index";
 import Service from "./Services/index";
 import Consulting from "./Cryptocul/Index"
-// import Contact from "./Home/Contact";
+import Contact from "./Home/Contact";
 import Preloader from "./Home/Preload";
 import Online from "./Online Payment/Index"
 import Billing from "./Billing/Index"
@@ -37,7 +37,7 @@ function App() {
           <Route path="/" element={ <Home/> } />
           <Route path="/about-us" element={ <About/> } />
           <Route path="/services" element={ <Service/> } />
-          {/* <Route path="/contact-us" element={ <Contact/> } /> */}
+          <Route path="/contact-us" element={ <Contact/> } />
           <Route path="/online-consulting" element={ <Consulting/> } />
           <Route path="/online-payments" element={ <Online/> } />
           <Route path="/billing" element={ <Billing/> } />
@@ -55,5 +55,4 @@ function App() {
   )
 }
 
-export default App
-                  
+export default App                  
