@@ -15,7 +15,7 @@ function Team() {
                     Meet our expert team
                 </h1>
                 <p className='third text-[#6D7380] md:text-base text-sm justify-center pt-5 leading-normal max-w-screen-lg'>
-                    At Block Sphere, our team is the backbone of our success. With a diverse group of professionals specializing in blockchain security, compliance, and digital asset management, we bring years of experience and innovation to the table.
+                    At Secure Ledgers Solutions, our team is the backbone of our success. With a diverse group of professionals specializing in blockchain security, compliance, and digital asset management, we bring years of experience and innovation to the table.
                 </p>
             </div>
             <div className='md:pt-10 pt-5'>
@@ -82,3 +82,4 @@ function Team() {
 }
 
 export default Team
+
