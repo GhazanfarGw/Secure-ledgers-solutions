@@ -23,7 +23,7 @@ function App() {
     // Simulate a delay to mimic content loading
     setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the delay as needed
+    }, 500); // Adjust the delay as needed
 
     // You can replace the above setTimeout with your actual data fetching logic.
   }, []);
