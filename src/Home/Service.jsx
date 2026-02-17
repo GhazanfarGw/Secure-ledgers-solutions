@@ -20,7 +20,7 @@ const Service = () => {
                             Digital asset consulting
                         </h1>
                         <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#9498A2] max-w-screen-lg pt-5 leading-normal'>
-                            Navigating the evolving landscape of blockchain and AI with booming crypto industry comes amidst complex cybersecurity challenges can be daunting. At Block Sphere, our expert consultants provide tailored guidance to help you overcome these hurdles.
+                            Navigating the evolving landscape of blockchain and AI with booming crypto industry comes amidst complex cybersecurity challenges can be daunting. At Secure Ledgers Solutions, our expert consultants provide tailored guidance to help you overcome these hurdles.
                         </p>
                         <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#9498A2] max-w-screen-lg pt-5 leading-normal'>
                             We deliver professional advice to individuals and businesses, empowering them to enhance their security strategies, safeguard digital assets, and optimize blockchain systems within their portfolios.
@@ -36,7 +36,7 @@ const Service = () => {
                     </h1>
                     <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#9498A2] max-w-screen-lg pt-5 leading-normal'>
                         When it’s time to convert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process. <br />
-                        At Block Sphere, we specialize in cryptocurrency liquidation, helping you seamlessly transform your digital assets into real-world value. <br />
+                        At Secure Ledgers Solutions, we specialize in cryptocurrency liquidation, helping you seamlessly transform your digital assets into real-world value. <br />
                         Whether you’re dealing with Bitcoin, Ethereum, or other major cryptocurrencies, our expert team guarantees optimal market rates and complete transparency every step of the way.
                     </p>
                     <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#9498A2] max-w-screen-lg pt-5 leading-normal'>
@@ -87,5 +87,6 @@ const Service = () => {
         </div>
     );
 }
+
 
 export default Service;
