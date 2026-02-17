@@ -16,7 +16,7 @@ const Business = () => {
                                 Why Secure Ledgers Solutions?
                             </h1>
                             <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#6D7380] justify-center md:text-base text-sm pt-5 leading-normal max-w-screen-md mx-auto md:text-center'>
-                                In today’s digital age, your cryptocurrency portfolio is constantly at risk from cyberattacks, theft, and fraud. Whether you store your assets in paper wallets, hardware wallets, or online platforms, ensuring top-notch security is essential. At Block Sphere, our team of cybersecurity experts is dedicated to protecting your digital wealth using cutting-edge technologies, multi-layered protection strategies, and proven methods.
+                                In today’s digital age, your cryptocurrency portfolio is constantly at risk from cyberattacks, theft, and fraud. Whether you store your assets in paper wallets, hardware wallets, or online platforms, ensuring top-notch security is essential. At Secure Ledgers Solutions, our team of cybersecurity experts is dedicated to protecting your digital wealth using cutting-edge technologies, multi-layered protection strategies, and proven methods.
                             </p>
                             <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-sm pt-5 leading-normal md:text-base md:text-center mx-auto text-[#6D7380] max-w-screen-md'>
                                 We recognize the complexities of securing digital currencies and the necessity of a robust, multi-layered approach. Our comprehensive services include:
@@ -74,5 +74,6 @@ const Business = () => {
         </>
     );
 }
+
 
 export default Business;
