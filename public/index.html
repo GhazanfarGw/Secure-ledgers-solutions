@@ -2,55 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./favicon_black.png" />
+    <link rel="icon" href="https://secureledgerssolutions.com/favicon_black.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta http-equiv="content-language" content="en" />
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://secureledgerssolutions.com/" />
 
-    <!-- Google Search Console Verification -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT3T23NFB9"></script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ8CQ61SV7"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
-      gtag('config', 'G-TT3T23NFB9');
+      gtag('config', 'G-MQ8CQ61SV7');
+    </script>
+
+    <!-- Meta Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '759293260583820');
+      fbq('track', 'PageView');
     </script>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Secure ledgers solutions allows you to seamlessly convert cryptocurrency into cash with a trusted and secure process." />
-    <meta name="keywords" content="crypto to cash, cryptocurrency exchange, USDT to fiat, secure crypto transactions, Secure ledgers solutions, crypto conversion" />
+    <meta name="description" content="Secure Ledgers Solutions allows you to seamlessly convert cryptocurrency into cash with a trusted and secure process." />
+    <meta name="keywords" content="crypto to cash, cryptocurrency exchange, USDT to fiat, secure crypto transactions, Secure Ledgers Solutions, crypto conversion" />
     <meta name="author" content="Secure Ledgers Solutions" />
     <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Secure Ledgers Solutions - Convert Crypto to Cash" />
     <meta property="og:description" content="Easily and securely convert your cryptocurrency into fiat currency with Secure Ledgers Solutions." />
-    <meta property="og:image" content="./favicon_black.png" />
-    <meta property="og:url" content="https:https://secureledgerssolutions.com/" />
+    <meta property="og:image" content="https://secureledgerssolutions.com/favicon_black.png" />
+    <meta property="og:url" content="https://secureledgerssolutions.com/" />
     <meta property="og:type" content="website" />
 
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Secure Ledgers Solutions - Convert Crypto to Cash" />
     <meta name="twitter:description" content="Seamless cryptocurrency conversion to fiat. Safe, fast, and secure transactions." />
-    <meta name="twitter:image" content="./favicon_black.png" />
+    <meta name="twitter:image" content="https://secureledgerssolutions.com/favicon_black.png" />
+
+    <!-- Structured Data (Organization Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Secure Ledgers Solutions",
+      "url": "https://secureledgerssolutions.com/",
+      "logo": "https://secureledgerssolutions.com/favicon_black.png",
+      "description": "Secure platform for converting cryptocurrency into fiat safely and quickly."
+    }
+    </script>
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>Secure Ledgers Solutions - Convert Crypto to Cash</title>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Meta Pixel (noscript fallback) -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=759293260583820&ev=PageView&noscript=1"/>
+    </noscript>
+
     <div id="root"></div>
   </body>
 </html>
