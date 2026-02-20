@@ -56,7 +56,7 @@ const Footer = () => {
                                 </svg>
                             </a> */}
                             <a 
-                                target="_black" href="https://www.linkedin.com/company/secure-ledgers-solutions/?viewAsMember=true" 
+                                target="_black" href="https://www.linkedin.com/company/secureledgerssolutions/?viewAsMember=true" 
                                 className="text-[#ffffff]
                                 items-center text-sm relative uppercase duration-200 flex justify-center flex-row hover:text-[#136690] border border-[#136690] rounded-full px-2 py-2"
                                 rel="noreferrer">
@@ -107,3 +107,4 @@ const Footer = () => {
 
 
 export default Footer;
+
