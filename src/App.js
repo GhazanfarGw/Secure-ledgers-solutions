@@ -15,6 +15,7 @@ import Security from "./Security Risk/Index"
 import Assets from "./Asset Protection/Index"
 import Stuck from "./Funds Stuck/Index"
 import Client from "./Client Experience/Index"
+import PrivacyPolicy from "./Privacy Poilcy/Privacy";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,7 +24,7 @@ function App() {
     // Simulate a delay to mimic content loading
     setTimeout(() => {
       setLoading(false);
-    }, 500); // Adjust the delay as needed
+    }, 1000); // Adjust the delay as needed
 
     // You can replace the above setTimeout with your actual data fetching logic.
   }, []);
@@ -48,6 +49,8 @@ function App() {
           <Route path="/asset-protection" element={ <Assets/> } />
           <Route path="/funds-stuck" element={ <Stuck/> } />
           <Route path="/client-experience" element={ <Client/> } />
+          <Route path="/privacy-policy" element={ <PrivacyPolicy/> } />
+          
         </Routes>
       )}
     </>
@@ -55,4 +58,4 @@ function App() {
   )
 }
 
-export default App                  
+export default App
