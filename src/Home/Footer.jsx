@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='bg-[#252E42]'>
             <div className='max-w-screen-xl mx-auto justify-center md:pt-20 md:pb-10 md:px-10 py-10'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5 px-5 '>
-                    Website last updated: February 17, 2026
+                    Website last updated: February 26, 2026
                 </h1>
                 <span className="py-2 md:px-0 px-2">
                     <a href="/">
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </svg>
                             </a> */}
                             <a 
-                                target="_black" href="https://www.linkedin.com/company/secureledgerssolutions/?viewAsMember=true" 
+                                target="_black" href="https://www.linkedin.com/company/secure-ledgers-solutions/?viewAsMember=true" 
                                 className="text-[#ffffff]
                                 items-center text-sm relative uppercase duration-200 flex justify-center flex-row hover:text-[#136690] border border-[#136690] rounded-full px-2 py-2"
                                 rel="noreferrer">
@@ -98,6 +98,9 @@ const Footer = () => {
                         <p className='md:text-sm text-xs text-[#C3CDD3] text-center'>
                             Secure Ledgers Solutions © 2026. All right reserved.
                         </p>
+                        <a className='text-sm text-[#C3CDD3] md:pt-5 pt-5 underline justify-center text-center mx-auto' href="./privacy-policy">
+                            <p>Privacy Policy</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -107,4 +110,3 @@ const Footer = () => {
 
 
 export default Footer;
-
