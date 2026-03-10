@@ -6,11 +6,12 @@ const BlogCard = ({ blog }) => {
     <Link to={`/${blog.slug}`}>
 
       <div className="bg-white transition duration-300 overflow-hidden group">
-
-        <img
+        <div>
+          <img
           src={blog.image}
           className="w-full h-48 object-cover group-hover:scale-105 transition"
-        />
+          alt="images"/>
+        </div>
 
         <div className="p-5">
 
