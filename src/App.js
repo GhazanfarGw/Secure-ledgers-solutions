@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import Home from "./Home/index";
 import About from "./Aboutus/Index";
@@ -16,27 +16,39 @@ import Assets from "./Asset Protection/Index"
 import Stuck from "./Funds Stuck/Index"
 import Client from "./Client Experience/Index"
 import PrivacyPolicy from "./Privacy Poilcy/Privacy";
+import Blog from "./Blog/index";
+import BlogPage from "./Blog Details/index";
+import ScrollToTop from "./Home/ScrollToTop";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true);
+  const location = useLocation(); // route change detect کرنے کے لیے
 
   useEffect(() => {
-    // Simulate a delay to mimic content loading
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000); // Adjust the delay as needed
+    // جب بھی route change ہو، loading true کریں
+    setLoading(true);
 
-    // You can replace the above setTimeout with your actual data fetching logic.
-  }, []);
+    // simulate data fetching or preload
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800); // loading duration adjust کریں
+
+    return () => clearTimeout(timer); // cleanup
+  }, [location.pathname]); // dependency: ہر بار route change پر trigger
+
 
   return (
     <>
       {loading ? (
         <Preloader />
       ) : (
+        <>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={ <Home/> } />
           <Route path="/about-us" element={ <About/> } />
+          <Route path="/blog" element={ <Blog/> } />
+          <Route path="/:slug" element={<BlogPage />} />
           <Route path="/services" element={ <Service/> } />
           <Route path="/contact-us" element={ <Contact/> } />
           <Route path="/online-consulting" element={ <Consulting/> } />
@@ -50,8 +62,8 @@ function App() {
           <Route path="/funds-stuck" element={ <Stuck/> } />
           <Route path="/client-experience" element={ <Client/> } />
           <Route path="/privacy-policy" element={ <PrivacyPolicy/> } />
-          
         </Routes>
+        </>
       )}
     </>
 
