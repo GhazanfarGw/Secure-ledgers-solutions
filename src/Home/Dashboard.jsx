@@ -22,7 +22,7 @@ function Dashboard() {
                     <div className='md:top-1/4 md:px-10 px-5 absolute pt-5 md:pt-16 max-w-screen-xl mx-auto'>
                         <div className='second text-left'>
                             <h1 data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='xl:text-6xl lg:text-5xl text-3xl md:text-5xl items-center duration-300 text-[#1A2B6B] font-medium'>
-                                Secure ledgers solutions <br className='hidden md:block lg:block'/> Digital Asset Consultancy 
+                                Secure Ledger Solutions <br className='hidden md:block lg:block'/> Digital Asset Consultancy 
                             </h1>
                         </div>
                         <div className='third md:pt-5 pt-5 text-base tracking-wider duration-500 max-w-screen-sm justify-start'>
@@ -54,3 +54,4 @@ function Dashboard() {
 
 
 export default Dashboard
+
